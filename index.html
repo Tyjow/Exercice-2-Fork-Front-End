@@ -6,10 +6,12 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 
 	<div id="main" class="container">
+	<div>
 		<header>
 			<div class="main_img">
 				<h1 class="logo"></h1>
@@ -17,12 +19,383 @@
 					<h1 class="info_title">SoundCloud Go</h1>
 					<p class="info_text">
 						From dubstep to stand-up.
-						<br>
+						<br><br>
 						When you’re bumper-to-bumper.
 					</p>
+					<p class="info_lil_text">Get an expanded catalog offline and ad-free, for 30 days on the house and €9.99/month after.</p>
+					<div class="info_but">
+						<button class="but but_orange">Try it free for 30 days</button>
+						<a class="but but_trans" href="#">Learn more</a>
+					</div>
+				</div>
+				<button class="but but_restric">Restrictions apply</button>
+				<div class="info_sign">
+					<button class="but but_sign">Sign in</button>
+					<button class="but but_sign_orange">Create account</button>
 				</div>
 			</div>
 		</header>
+
+		<section>
+			<div class="main_content">
+				<div class="content_search">
+					<span class="content_dark">
+						<form class="form_search">
+							<input class="input_search" placeholder="Search for artists, bands, tracks, podcasts" type="search">
+							<button class="but_submit"></button>
+						</form>
+					</span> or
+					<a class="but_upload" href="#">Upload your own</a>
+				</div>
+				<div class="content_track">
+					<h2 class="content_title">Hear what’s trending for free on charts</h2>
+					<div class="content_list">
+						<ul class="list_none">
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play1');show('like1')" onMouseOut="hide('play1');hide('like1')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_1"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play1" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like1" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">X (feat. Future)</a>
+											<div class="track_author">
+												<a class="author" href="#">21 Savage</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play2');show('like2')" onMouseOut="hide('play2');hide('like2')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_1"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play2" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like2" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">No Heart</a>
+											<div class="track_author">
+												<a class="author" href="#">21 Savage</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play3');show('like3')" onMouseOut="hide('play3');hide('like3')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_2"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play3" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like3" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Bad and Boujee (Feat. Lil Uzi Vert) [Prod. By Metro Boomin]</a>
+											<div class="track_author">
+												<a class="author" href="#">Migos</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play4');show('like4')" onMouseOut="hide('play4');hide('like4')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_3"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play4" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like4" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">YOUNG MA - OOOUUU (intro)</a>
+											<div class="track_author">
+												<a class="author" href="#">youngma</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play5');show('like5')" onMouseOut="hide('play5');hide('like5')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_4"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play5" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like5" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">BROCCOLI feat. Lil Yachty (Prod By. J Gramm)</a>
+											<div class="track_author">
+												<a class="author" href="#">Big Baby D.R.A.M.</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play6');show('like6')" onMouseOut="hide('play6');hide('like6')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_5"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play6" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like6" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Caroline</a>
+											<div class="track_author">
+												<a class="author" href="#">Aminé</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play7');show('like7')" onMouseOut="hide('play7');hide('like7')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_6"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play7" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like7" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Timeless (DJ SPINKING)</a>
+											<div class="track_author">
+												<a class="author" href="#">A BOOGIE WIT DA HOODIE</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play8');show('like8')" onMouseOut="hide('play8');hide('like8')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_7"></span>
+													</div>
+												</div>
+												<div class="track_indic">
+													<span class="indic">Preview</span>
+												</div>
+											</a>
+											<div id="play8" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like8" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Chill Bill</a>
+											<div class="track_author">
+												<a class="author" href="#">Rob $TONE</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play9');show('like9')" onMouseOut="hide('play9');hide('like9')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_8"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play9" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like9" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Buy It  [Produced By Zaytoven] $$$$</a>
+											<div class="track_author">
+												<a class="author" href="#">LIL UZI VERT</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play10');show('like10')" onMouseOut="hide('play10');hide('like10')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_9"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play10" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like10" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Gassed Up</a>
+											<div class="track_author">
+												<a class="author" href="#">Nebu Kiniza</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play11');show('like11')" onMouseOut="hide('play11');hide('like11')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_10"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play11" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like11" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Travis Scott ft Lil Uzi vert - RaRa</a>
+											<div class="track_author">
+												<a class="author" href="#">Travis Scott</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="list_item">
+								<div>
+									<div class="track_title">
+										<div class="track_art" onMouseOver="show('play12');show('like12')" onMouseOut="hide('play12');hide('like12')">
+											<a class="link_art" href="#">
+												<div class="track_image">
+													<div class="image_sound">
+														<span class="image_full image_11"></span>
+													</div>
+												</div>
+											</a>
+											<div id="play12" class="play">
+												<button class="but_play"></button>
+											</div>
+											<div id="like12" class="like">
+												<button class="but_like"></button>
+												<button class="but_more"></button>
+											</div>
+										</div>
+										<div class="track_descrip">
+											<a class="track_name" href="#">Money Longer</a>
+											<div class="track_author">
+												<a class="author" href="#">LIL UZI VERT</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 	</div>
 
 </body>
