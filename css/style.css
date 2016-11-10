@@ -140,20 +140,20 @@ body {
           line-height: 18px;
           padding: 3px 9px 2px 7px;
           height: 26px; }
-  .container section .main_content .content_search {
+  .container .content_mid .main_content .content_search {
     margin: 34px 0 20px 0;
     font-size: 16px;
     color: #333;
     font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif; }
-    .container section .main_content .content_search .content_dark {
+    .container .content_mid .main_content .content_search .content_dark {
       color: #999; }
-      .container section .main_content .content_search .content_dark .form_search {
+      .container .content_mid .main_content .content_search .content_dark .form_search {
         padding: 0;
         display: inline-block;
         width: 600px;
         margin-right: 10px;
         position: relative; }
-        .container section .main_content .content_search .content_dark .form_search .input_search {
+        .container .content_mid .main_content .content_search .content_dark .form_search .input_search {
           padding-left: 12px;
           height: 40px;
           width: 100%;
@@ -165,12 +165,12 @@ body {
           border-radius: 4px;
           border: 1px solid #ccc;
           transition: border-color .1s; }
-        .container section .main_content .content_search .content_dark .form_search input[type="search"] {
+        .container .content_mid .main_content .content_search .content_dark .form_search input[type="search"] {
           color: #666;
           outline: 0;
           border: 0;
           background: #e5e5e5; }
-        .container section .main_content .content_search .content_dark .form_search .but_submit {
+        .container .content_mid .main_content .content_search .content_dark .form_search .but_submit {
           cursor: pointer;
           background-color: #e5e5e5;
           background-size: 15px 15px;
@@ -185,7 +185,7 @@ body {
           border: 0;
           padding: 0;
           position: absolute; }
-    .container section .main_content .content_search .but_upload {
+    .container .content_mid .main_content .content_search .but_upload {
       margin-left: 10px;
       font-size: 16px;
       line-height: 18px;
@@ -197,7 +197,7 @@ body {
       cursor: pointer;
       color: #333;
       text-decoration: none; }
-  .container section .main_content .content_track .content_title {
+  .container .content_mid .main_content .content_track .content_title {
     color: #333;
     font-size: 24px;
     text-align: center;
@@ -205,35 +205,35 @@ body {
     margin-bottom: 30px;
     margin-top: 0;
     font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif; }
-  .container section .main_content .content_track .content_list {
+  .container .content_mid .main_content .content_track .content_list {
     margin-right: -20px;
     background-color: #fff; }
-    .container section .main_content .content_track .content_list .list_none {
+    .container .content_mid .main_content .content_track .content_list .list_none {
       list-style: none;
       margin: 0;
       padding: 0; }
-      .container section .main_content .content_track .content_list .list_none .list_item {
+      .container .content_mid .main_content .content_track .content_list .list_none .list_item {
         box-sizing: border-box;
         padding-right: 20px;
         width: 16.666%;
         float: left; }
-        .container section .main_content .content_track .content_list .list_none .list_item div .track_title {
+        .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title {
           width: 100%;
           padding-bottom: 78px;
           position: relative; }
-          .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art {
+          .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art {
             padding-top: 100%;
             height: 0;
             position: relative;
             z-index: 2; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image {
               position: absolute;
               top: 0;
               bottom: 0;
               left: 0;
               right: 0;
               cursor: pointer; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound {
                 height: 100%;
                 width: 100%;
                 background-image: linear-gradient(135deg, #e6846e, #846170);
@@ -243,7 +243,7 @@ body {
                 display: block;
                 background-size: cover;
                 background-position: 50% 50%; }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_full {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_full {
                   width: 100%;
                   height: 100%;
                   opacity: 1;
@@ -255,33 +255,33 @@ body {
                   display: block;
                   background-size: cover;
                   background-position: 50% 50%; }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_1 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_1 {
                   background-image: url("../img/21savage.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_2 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_2 {
                   background-image: url("../img/migos.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_3 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_3 {
                   background-image: url("../img/youngma.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_4 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_4 {
                   background-image: url("../img/bigbaby.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_5 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_5 {
                   background-image: url("../img/caroline.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_6 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_6 {
                   background-image: url("../img/tba.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_7 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_7 {
                   background-image: url("../img/chillbill.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_8 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_8 {
                   background-image: url("../img/liluzi.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_9 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_9 {
                   background-image: url("../img/gassedup.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_10 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_10 {
                   background-image: url("../img/travis.jpg"); }
-                .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_11 {
+                .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_image .image_sound .image_11 {
                   background-image: url("../img/liluzi2.jpg"); }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_indic {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_indic {
               position: absolute;
               top: 8px;
               right: 8px; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_indic .indic {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .link_art .track_indic .indic {
                 font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
                 background-color: rgba(0, 0, 0, 0.1);
                 color: #fff;
@@ -291,7 +291,7 @@ body {
                 border: 1px solid;
                 padding: .1em .5em;
                 display: inline; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play {
               opacity: 0;
               visibility: hidden;
               transition: opacity .1s,visibility .1s;
@@ -301,7 +301,7 @@ body {
               right: 34%;
               bottom: 34%;
               z-index: 100; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play {
                 width: 100%;
                 height: 100%;
                 border-radius: 50%;
@@ -312,10 +312,10 @@ body {
                 padding: 0;
                 border: 0;
                 cursor: pointer; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:hover {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:hover {
                 background-color: #f30;
                 border-color: #f30; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:before {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:before {
                 content: '';
                 position: absolute;
                 z-index: 1;
@@ -332,7 +332,7 @@ body {
                 display: block;
                 width: 100%;
                 height: 100%; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:after {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .play .but_play:after {
                 position: absolute;
                 z-index: 0;
                 background: transparent;
@@ -343,7 +343,7 @@ body {
                 top: 0;
                 opacity: 0;
                 transition: opacity .5s; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like {
               opacity: 0;
               visibility: hidden;
               transition: opacity .1s,visibility .1s;
@@ -358,7 +358,7 @@ body {
               justify-content: flex-end;
               align-items: flex-end;
               box-sizing: border-box; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_like {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_like {
                 min-width: 25px;
                 text-align: left;
                 text-indent: -100000px;
@@ -376,7 +376,7 @@ body {
                 margin: 0;
                 border-radius: 3px;
                 cursor: pointer; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_like:before {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_like:before {
                 left: 1px;
                 background-size: 16px 16px;
                 background-image: url("../img/like.svg");
@@ -390,7 +390,7 @@ body {
                 top: 0;
                 bottom: 0;
                 margin: auto 0; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_more {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_more {
                 min-width: 25px;
                 text-align: left;
                 text-indent: -100000px;
@@ -408,7 +408,7 @@ body {
                 margin: 0;
                 border-radius: 3px;
                 cursor: pointer; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_more:before {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_art .like .but_more:before {
                 left: 1px;
                 background-size: 14px 4px;
                 background-image: url("../img/more.svg");
@@ -422,14 +422,14 @@ body {
                 top: 0;
                 bottom: 0;
                 margin: auto 0; }
-          .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip {
+          .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip {
             transition: opacity .1s,visibility .1s;
             position: absolute;
             padding-top: 100%;
             top: 6px;
             width: 100%;
             z-index: 1; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_name {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_name {
               font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
               color: #333;
               font-size: 14px;
@@ -441,19 +441,271 @@ body {
               white-space: nowrap;
               overflow: hidden;
               text-overflow: ellipsis; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_name:hover {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_name:hover {
               color: #000; }
-            .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author {
+            .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author {
               display: flex; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author .author {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author .author {
                 font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
                 font-size: 12px;
                 color: #999;
                 text-decoration: none; }
-              .container section .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author .author:hover {
+              .container .content_mid .main_content .content_track .content_list .list_none .list_item div .track_title .track_descrip .track_author .author:hover {
                 color: #333; }
-    .container section .main_content .content_track .content_list .list_none:before {
+    .container .content_mid .main_content .content_track .content_list .list_none:before {
       content: "";
       display: table; }
+  .container .content_mid .main_content .content_track .content_but {
+    text-align: center; }
+    .container .content_mid .main_content .content_track .content_but .but_orange {
+      background-color: #f50;
+      border: 1px solid #f50;
+      color: #fff;
+      font-size: 16px;
+      line-height: 18px;
+      padding: 10px 15px;
+      height: 40px; }
+    .container .content_mid .main_content .content_track .content_but .but {
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      margin: 0;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      text-align: center;
+      box-sizing: border-box; }
+  .container .content_bottom .mobile_content {
+    margin-top: 60px;
+    padding: 0 40px;
+    border-top: 1px solid #e5e5e5;
+    height: 350px; }
+    .container .content_bottom .mobile_content .mobile_device {
+      display: block;
+      float: left;
+      width: 375px;
+      height: 300px;
+      margin: 50px 65px 0 45px;
+      background-image: url("../img/phone.png");
+      background-repeat: no-repeat;
+      background-size: 100%; }
+    .container .content_bottom .mobile_content .mobile_title {
+      font-family: "Interstate";
+      margin-top: 72px;
+      font-size: 32px;
+      color: #333; }
+    .container .content_bottom .mobile_content .mobile_text {
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      line-height: 1.4;
+      color: #333;
+      font-size: 24px;
+      margin-top: 12px;
+      margin-bottom: 50px;
+      max-width: 1020px; }
+    .container .content_bottom .mobile_content .mobile_link_apple {
+      vertical-align: middle;
+      width: 135px;
+      background-image: url("../img/apple.png");
+      margin-right: 4px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      border: 0;
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color: transparent;
+      text-decoration: none; }
+    .container .content_bottom .mobile_content .mobile_link_android {
+      vertical-align: middle;
+      width: 115px;
+      background-image: url("../img/android.png");
+      margin-right: 4px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      border: 0;
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color: transparent;
+      text-decoration: none; }
+    .container .content_bottom .mobile_content .mobile_learn {
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      font-size: 18px;
+      color: #333; }
+      .container .content_bottom .mobile_content .mobile_learn .mobile_link_learn {
+        font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+        color: #38d;
+        text-decoration: none;
+        font-size: 18px; }
+      .container .content_bottom .mobile_content .mobile_learn .mobile_link_learn:hover {
+        color: #333;
+        outline: 0; }
+  .container .content_bot .osc_content {
+    position: relative;
+    height: 350px;
+    margin: 0 -30px;
+    background-color: #333;
+    background-image: linear-gradient(to right, #333, #111 30%);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 120px; }
+    .container .content_bot .osc_content .osc_title {
+      font-family: "Interstate";
+      font-weight: 400;
+      margin-top: 0;
+      padding-top: 72px;
+      font-size: 32px;
+      line-height: 1.3;
+      color: #fff;
+      margin-bottom: 0; }
+    .container .content_bot .osc_content .osc_text {
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      font-size: 24px;
+      line-height: 1.4;
+      margin: 12px 40% 50px 0;
+      color: #fff; }
+      .container .content_bot .osc_content .osc_text .osc_text_orange {
+        font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+        text-transform: uppercase;
+        color: #f50;
+        font-size: 24px; }
+    .container .content_bot .osc_content div .but {
+      display: inline-block;
+      position: relative;
+      margin: 0;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      text-align: center;
+      box-sizing: border-box; }
+    .container .content_bot .osc_content div .but_trans {
+      background: 0 0;
+      color: #fff;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 10px 15px;
+      height: 40px;
+      text-decoration: none; }
+    .container .content_bot .osc_content .osc_image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 442px;
+      height: 350px;
+      background-image: url("../img/osc.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin: 0; }
+    .container .content_bot .osc_content .osc_image:before {
+      content: '';
+      background-image: radial-gradient(100% 100% at right, transparent, transparent 50%, #111);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%; }
+  .container .content_signup .signup_content {
+    height: 350px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5; }
+  .container .content_signup .signup_title {
+    font-family: "Interstate";
+    font-size: 32px;
+    color: #333;
+    margin-top: 0;
+    padding-top: 60px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center; }
+  .container .content_signup .signup_text {
+    font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+    font-size: 24px;
+    margin-top: 12px;
+    text-align: center;
+    color: #333; }
+  .container .content_signup .signup_but {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px; }
+    .container .content_signup .signup_but .but_orange {
+      background-color: #f50;
+      border: 1px solid #f50;
+      color: #fff;
+      font-size: 16px;
+      line-height: 18px;
+      padding: 10px 12px;
+      height: 40px; }
+    .container .content_signup .signup_but .but {
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      margin: 0;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      text-align: center;
+      box-sizing: border-box; }
+  .container .content_signup .signup_foot {
+    font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #333; }
+    .container .content_signup .signup_foot .but {
+      display: inline-block;
+      position: relative;
+      margin: 0;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Interstate-Light", "Interstate", "Lucida-Grande", sans-serif;
+      text-align: center;
+      box-sizing: border-box;
+      margin-left: 10px; }
+    .container .content_signup .signup_foot .but_trans {
+      background: 0 0;
+      color: #333;
+      border: 1px solid #e5e5e5;
+      font-size: 16px;
+      line-height: 18px;
+      padding: 10px 12px;
+      height: 40px;
+      text-decoration: none; }
+  .container footer .footer_content {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: #ccc;
+    font-size: 11px;
+    line-height: 1.4;
+    font-family: "Lucida Grande", sans-serif; }
+    .container footer .footer_content p {
+      margin: 0 0 10px; }
+      .container footer .footer_content p .footer_link {
+        color: #999;
+        text-decoration: none;
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.4;
+        font-family: "Lucida Grande", sans-serif; }
+      .container footer .footer_content p .last_footer_link {
+        cursor: pointer;
+        color: #38d;
+        text-decoration: none;
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.4;
+        font-family: "Lucida Grande", sans-serif; }
+        .container footer .footer_content p .last_footer_link .footer_lang {
+          color: #333;
+          cursor: pointer;
+          text-align: center;
+          font-size: 11px;
+          line-height: 1.4;
+          font-family: "Lucida Grande", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
